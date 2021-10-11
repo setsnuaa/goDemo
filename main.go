@@ -1,8 +1,8 @@
 package main
 
 import (
-	"awesomeProject/demo"
 	"fmt"
+	"goDemo/demo"
 )
 
 func main() {
