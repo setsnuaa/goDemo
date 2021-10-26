@@ -19,6 +19,8 @@ func main() {
 	demo.PrintDefer()
 
 	demo.PrintType("hello")
+
+	demo.PrintMixCharacter("hello你好")
 }
 
 func printDemo() {
