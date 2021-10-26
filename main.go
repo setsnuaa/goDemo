@@ -11,6 +11,14 @@ func main() {
 	printRider()
 	printArray()
 	demo.PrintSlice()
+	demo.PrintMap()
+
+	myInterfaceImpl := demo.MyInterfaceImpl{}
+	myInterfaceImpl.Print("hello")
+
+	demo.PrintDefer()
+
+	demo.PrintType("hello")
 }
 
 func printDemo() {
